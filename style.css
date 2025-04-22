@@ -1,0 +1,321 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+}
+
+a:hover {
+    color: #3D518C;
+}
+
+#banner{
+    background-image: url("/img2/tecido.jpg"); 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding: 2em 0;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: larger;
+    color: white;
+    h1{
+        color: white;
+        font-size: 200 px;
+    }
+    
+}
+
+#menu {
+    background: #cdb4db;
+    padding: 0.5em;
+    text-align: center;
+}
+
+.link {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 15px;
+    transition: color 0.3s ease-in-out;
+}
+
+#secoes {
+    padding: 2em;
+    margin: 10px;
+    text-align: center;
+    transition: 0.3s all ease-in-out;
+}
+
+.sec_principal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1{
+    color: #7b2cbf;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h2 {
+    color: #7b2cbf;
+}
+
+#descricao {
+    line-height: 1.6;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    max-width: 800px;
+    text-align: center;
+}
+
+#bg-image {
+    background-image: url("/img2/pato.png");
+    background-size: cover;
+}
+
+.secao1 {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px;
+    box-sizing: border-box;
+    gap: 20px;
+    background-color: #cdb4db;
+    border-radius: 20px;
+    transition: 0.3s all ease-in-out;
+}
+
+
+.container1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    position: relative;
+    top: 50%;
+    left: 50%;
+}
+
+.card-linha {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    gap: 20px;
+    
+}
+
+#card-giulia {
+    background-image: url("/img2/giulia.jpg");
+    border-radius: 20px;
+    height: 300px;
+    width: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: 0.3s all ease-in-out;
+}
+
+
+#card-lele {
+    background-image: url("/img2/lele.jpg");
+    border-radius: 20px;
+    height: 300px;
+    width: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: 0.3s all ease-in-out;
+
+}
+
+#card-malu {
+    background-image: url("/img2/malu.jpg");
+    border-radius: 20px;
+    height: 300px;
+    width: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: 0.3s all ease-in-out;
+
+}
+
+#card-giulia:hover {
+    background-image: url("/img2/giulia2.jpg");
+    transform: scale(1.05);
+
+}
+
+#card-lele:hover {
+    background-image: url("/img2/lele2.jpg");
+    transform: scale(1.05);
+
+}
+
+#card-malu:hover {
+        background-image: url("/img2/malu2.jpg");
+        transform: scale(1.05);
+
+}
+
+/* Texto ao lado do card */
+.card-texto {
+    flex: 1;
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    color: #333;
+}
+
+
+
+.float-box1{
+    flex: 2; /* 1 parte do espaço */
+    height: 380px;
+    background-image: url("/img2/moda.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    min-width: 150px;
+}
+
+.float-box2 {
+    flex: 2; /* 1 parte do espaço */
+    height: 380px;
+    background-image: url("/img2/moda2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    min-width: 150px;
+}
+
+
+#texto {
+    flex: 2; /* ocupa o dobro do espaço de uma box */
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    line-height: 1.6;
+    padding: 10px;
+    font-size: larger;
+}
+
+
+#rodape {
+    background-color: rgb(126, 70, 215);
+    color: aliceblue;
+    text-align: center;
+    padding: 1em 0;
+}
+
+.block {
+    display: flex;
+    width: 100%;
+    border-radius: 20px;
+    background-color: #f7cacd;
+    align-items: center;
+    flex-direction: row;
+    padding: 20px;
+    margin-right: 15px;
+}
+
+.block-galeria {
+    padding: 50px 20px;
+    background-color: #f6f6f6;
+    text-align: center;
+}
+
+.block-galeria h2 {
+    font-size: 28px;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+.galeria-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 20px;
+    max-width: 1150px;
+    margin: 0 auto;
+    
+}
+
+.galeria-item {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.galeria-item:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.galeria-item img {
+    width: 100%;
+    height: 50%;
+    border-radius: 8px;
+}
+
+.galeria-item p {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #555;
+}
+
+.block-cards-coluna {
+    padding: 50px 20px;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+.block-cards-coluna h2 {
+    font-size: 28px;
+    margin-bottom: 30px;
+    color: #222;
+}
+
+.cards-coluna-container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.card-coluna {
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.card-coluna img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.card-coluna p {
+    padding: 20px;
+    font-size: 17px;
+    color: #444;
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+}
+
+.card-coluna:hover {
+    transform: scale(1.02);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+}
+
+
+
+footer {
+    background: #333;
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+}
